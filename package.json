@@ -1,0 +1,30 @@
+{
+  "name": "testbox-runner",
+  "version": "0.0.1",
+  "description": "Runs Testbox tests",
+  "main": "index.js",
+  "bin": {
+    "testbox-runner": ".index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TestBox"
+  ],
+  "author": "Sean Coyne <sean@n42designs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.0.3",
+    "rc": "^0.5.5",
+    "request": "^2.51.0",
+    "validator": "^3.28.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "jshint": "^2.6.0",
+    "jshint-stylish": "^1.0.0"
+  }
+}
