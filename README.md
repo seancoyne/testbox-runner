@@ -4,6 +4,12 @@ Runs [Testbox](https://github.com/Ortus-Solutions/TestBox) tests via the command
 
 ![screenshot](https://raw.github.com/seancoyne/testbox-runner/master/screenshot.png)
 
+## Installation
+
+Use npm
+
+`npm install -g testbox-runner`
+
 ## Configuration
 
 ### Config File
