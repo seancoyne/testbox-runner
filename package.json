@@ -1,10 +1,10 @@
 {
   "name": "testbox-runner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Runs Testbox tests",
   "main": "index.js",
   "bin": {
-    "testbox-runner": ".index.js"
+    "testbox-runner": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
