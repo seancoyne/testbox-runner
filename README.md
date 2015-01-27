@@ -59,3 +59,7 @@ Simply run the utility and pass the above configuration options prefixed with `-
 #### Example
 
 `testbox-runner --runner http://localhost/testbox/system/runners/HTMLRunner.cfm --directory /tests --recurse true`
+
+## Grunt/grunt-shell Note
+
+This utility can be used with [grunt-shell](https://github.com/sindresorhus/grunt-shell) to run it via Grunt, however, you will use the color output.  There is another option you can specify `--colors` which will force the colors.

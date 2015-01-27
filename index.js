@@ -34,6 +34,11 @@
 		});
 		return;
 	}
+	
+	// option to force colors
+	if (config.colors) {
+		colors.enabled = true;
+	}
 
 	runner(config, function(uri){
 		
