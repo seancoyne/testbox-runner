@@ -19,7 +19,7 @@
 	
 	config.recurse = validator.toBoolean(config.recurse);
 	
-	if (!validator.isURL(config.runner)) {
+	if (!validator.isURL(config.runner, {require_tld: false})) {
 		errors.push("--runner is required and must be a URL");
 	}
 	
