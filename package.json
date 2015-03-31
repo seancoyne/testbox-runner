@@ -29,8 +29,8 @@
   "author": "Sean Coyne <sean@n42designs.com> (http://www.n42designs.com/)",
   "license": "MIT",
   "dependencies": {
+    "chalk": "1.0.0",
     "cli-table": "0.3.1",
-    "colors": "1.0.3",
     "rc": "0.5.5",
     "request": "2.51.0",
     "validator": "3.28.0"

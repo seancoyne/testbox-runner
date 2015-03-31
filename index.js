@@ -5,7 +5,7 @@
 	"use strict";
 	
 	var rc = require("rc");
-	var colors = require("colors");
+	var chalk = require("chalk");
 	var validator = require("validator");
 
 	var runner = require("./lib/runner.js");
@@ -33,14 +33,14 @@
 	if (errors.length) {
 		console.error("There was a problem with your configuration settings.  Check your .testbox-runnerrc file or pass the proper command line arguments".red);
 		errors.forEach(function(err){
-			console.error(colors.red(err));
+			console.error(chalk.red(err));
 		});
 		return;
 	}
 	
-	// option to force colors
-	if (config.colors) {
-		colors.enabled = true;
+	// option to force chalk
+	if (config.chalk) {
+		chalk.enabled = true;
 	}
 
 	runner(config, function(uri){
