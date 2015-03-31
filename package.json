@@ -10,14 +10,15 @@
     "testbox-runner": "./index.js"
   },
   "directories": {
-  	"lib": "./lib"
+    "lib": "./lib"
   },
   "repository": {
-  	"type": "git",
-  	"url": "https://github.com/seancoyne/testbox-runner.git"
+    "type": "git",
+    "url": "https://github.com/seancoyne/testbox-runner.git"
   },
   "scripts": {
-    "test": "echo \"Error: no tests yet\" && exit 1"
+    "test": "echo \"Error: no tests yet\" && exit 1",
+    "lint": "gulp lint"
   },
   "keywords": [
     "testbox",
@@ -35,9 +36,9 @@
     "validator": "3.28.0"
   },
   "devDependencies": {
-    "gulp": "3.8.10",
-    "gulp-jshint": "1.9.0",
-    "jshint": "2.6.0",
-    "jshint-stylish": "1.0.0"
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.0",
+    "jshint": "^2.6.0",
+    "jshint-stylish": "^1.0.0"
   }
 }
