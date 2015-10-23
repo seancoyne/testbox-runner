@@ -60,6 +60,8 @@ Simply run the utility and pass the above configuration options prefixed with `-
 
 `testbox-runner --runner http://localhost/testbox/system/runners/HTMLRunner.cfm --directory /tests --recurse true`
 
-## Grunt/grunt-shell Note
+## Grunt/Gulp Notes
 
 This utility can be used with [grunt-shell](https://github.com/sindresorhus/grunt-shell) to run it via Grunt, however, you will lose the color output.  There is another option you can specify `--colors` which will force the colors.
+
+You can see an example [Grunt](http://gruntjs.com) setup [here](https://gist.github.com/seancoyne/9b1b24dca08ed9282fc6) and an example [Gulp](http://gulpjs.com) setup [here](https://gist.github.com/seancoyne/2e1bf04595f854032062) (assumes you're using a .testbox-runnerrc file)
