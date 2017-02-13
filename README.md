@@ -23,6 +23,7 @@ Create a `.testbox-runnerrc` file in the root of your project (where you will ru
 * `recurse` (optional, default is `false`) - Indicates if you want to recurse the directory provided in the `directory` option.  Must be a boolean.
 * `bundles` (required if `directory` is not provided)
 * `labels` - The string or list of labels the runner will use to execute suites and specs with.
+* `errorsOnly` - If true, only display failures and errors.  The summary will still show all passing suites and tests.
 
 #### Example
 
