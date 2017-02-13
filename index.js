@@ -51,11 +51,12 @@
 		
 		if (error) {
 			console.error(error);
+			process.exitCode = 1
 			return;
 		}
-		
+
 		reporter(results);
-		
+		process.exitCode = (results.totalFail > 0 || results.totalError > 0) ? 1 : 0;
 	});
 
 })();
