@@ -46,6 +46,7 @@
 	runner(config, function(uri){
 		
 		console.log("Running tests via URL:", uri);
+		console.log();
 		
 	}, function(error, results){
 		
