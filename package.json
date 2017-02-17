@@ -1,6 +1,6 @@
 {
   "name": "testbox-runner",
-  "version": "0.3",
+  "version": "0.3.0",
   "description": "Runs Testbox tests via the command line",
   "homepage": "https://github.com/seancoyne/testbox-runner",
   "bugs": "https://github.com/seancoyne/testbox-runner/issues",
