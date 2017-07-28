@@ -63,6 +63,8 @@ Simply run the utility and pass the above configuration options prefixed with `-
 
 ## Grunt/Gulp Notes
 
+You can use [Grunt](http://gruntjs.com) or [Gulp](http://gulpjs.com) to watch your file system for changes to relevant files (usually `.cfc`s), at which point test-runner will execute all of the tests specified in `.testbox-runnerrc`.
+
 This utility can be used with [grunt-shell](https://github.com/sindresorhus/grunt-shell) to run it via Grunt, however, you will lose the color output.  There is another option you can specify `--colors` which will force the colors.
 
-You can see an example [Grunt](http://gruntjs.com) setup [here](https://gist.github.com/seancoyne/9b1b24dca08ed9282fc6) and an example [Gulp](http://gulpjs.com) setup [here](https://gist.github.com/seancoyne/2e1bf04595f854032062) (assumes you're using a .testbox-runnerrc file)
+You can see an example Grunt setup [here](https://gist.github.com/seancoyne/9b1b24dca08ed9282fc6) and an example Gulp setup [here](https://gist.github.com/seancoyne/2e1bf04595f854032062) (assumes you're using a .testbox-runnerrc file)
