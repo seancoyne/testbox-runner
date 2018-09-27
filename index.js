@@ -49,7 +49,6 @@
 		console.log();
 		
 	}, function(error, results){
-		
 		if (error) {
 			console.error(error);
 			process.exitCode = 1
