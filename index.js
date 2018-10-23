@@ -56,7 +56,7 @@
 		}
 
 		reporter(results, config);
-		process.exitCode = (results.totalFail > 0 || results.totalError > 0) ? 1 : 0;
+		process.exitCode = (results.TOTALFAIL > 0 || results.TOTALERROR > 0) ? 1 : 0;
 	});
 
 })();
