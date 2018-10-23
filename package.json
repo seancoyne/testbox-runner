@@ -1,6 +1,6 @@
 {
   "name": "tutuka-testbox-runner",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Runs Testbox tests via the command line",
   "homepage": "https://github.com/tutuka/testbox-runner",
   "bugs": "https://github.com/tutuka/testbox-runner/issues",
