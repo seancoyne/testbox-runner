@@ -17,7 +17,7 @@
     "url": "https://github.com/seancoyne/testbox-runner.git"
   },
   "scripts": {
-    "test": "echo \"Error: no tests yet\" && exit 1",
+    "test": "jest",
     "lint": "gulp lint"
   },
   "keywords": [
@@ -38,6 +38,7 @@
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-jshint": "^1.9.0",
+    "jest": "^28.1.1",
     "jshint": "^2.6.0",
     "jshint-stylish": "^1.0.0"
   }
